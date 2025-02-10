@@ -20,15 +20,24 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import dotnet from "./tech/dotnet.png";
+import postgres from "./tech/postgres.png";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
+import fpt from "./company/fpt.png";
 import tesla from "./company/tesla.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+
+// bhx images 
+import cartBHXImg from "./bhxapp/cart.jpg";
+
+
+
 
 export {
   logo,
@@ -59,4 +68,7 @@ export {
   carrent,
   jobit,
   tripguide,
+  fpt,
+  dotnet,
+  postgres
 };
