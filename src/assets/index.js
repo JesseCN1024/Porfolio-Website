@@ -36,8 +36,53 @@ import tripguide from "./tripguide.png";
 
 import linkedin from "./media/linkedin.png";
 
+// GreenMart
+import greenmart1 from "./greenmart/greenmart1.png";
+import greenmart2 from "./greenmart/greenmart2.png";
+import greenmart3 from "./greenmart/greenmart3.png";
+import greenmart4 from "./greenmart/greenmart4.png";
+import greenmart5 from "./greenmart/greenmart5.png";
+import greenmart6 from "./greenmart/greenmart6.png";
+import greenmart7 from "./greenmart/greenmart7.png";
+
+import bhx1 from "./bhxapp/bhx1.jpg";
+import bhx2 from "./bhxapp/bhx2.jpg";
+import bhx3 from "./bhxapp/bhx3.jpg";
+import bhx4 from "./bhxapp/bhx4.jpg";
+import bhx5 from "./bhxapp/bhx5.jpg";
+import bhx6 from "./bhxapp/bhx6.jpg";
+import bhx7 from "./bhxapp/bhx7.jpg";
+import bhx8 from "./bhxapp/bhx8.jpg";
+import bhx9 from "./bhxapp/bhx9.jpg";
+import bhx10 from "./bhxapp/bhx10.jpg";
 
 
+const greenmartImages = [
+  greenmart1,
+  greenmart2,
+  greenmart3,
+  greenmart4,
+  greenmart5,
+  greenmart6,
+  greenmart7
+];
+const bhxImages = [
+  bhx1,
+  bhx2,
+  bhx3,
+  bhx4,
+  bhx5,
+  bhx6,
+  bhx7,
+  bhx8,
+  bhx9,
+  bhx10
+];
+
+export {
+  greenmartImages,
+  bhxImages
+};
 
 
 export {
