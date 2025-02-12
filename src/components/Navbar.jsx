@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 
 import { styles } from "../styles";
-import { navLinks } from "../constants";
+import { mediaLinks, navLinks } from "../constants";
 import { logo, menu, close } from "../assets";
 
 const Navbar = () => {
@@ -49,6 +49,22 @@ const Navbar = () => {
         </Link>
 
         <ul className="list-none hidden sm:flex flex-row gap-10">
+          {mediaLinks.map((nav) => (
+            <a
+              key={nav.name}
+              className={` rounded-full text-secondary hover:opacity-75 text-[18px] font-medium cursor-pointer flex items-center space-x-2`}
+              href={nav.url}
+            >
+              <span>{nav.name}</span>
+              <div className="w-6 h-6 rounded-full bg-white">
+                <img
+                  src={nav.icon}
+                  alt=""
+                  className="w-full h-full object-contain object-center z-10"
+                />
+              </div>
+            </a>
+          ))}
           {navLinks.map((nav) => (
             <li
               key={nav.id}

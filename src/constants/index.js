@@ -18,6 +18,7 @@ import {
   meta,
   starbucks,
   fpt,
+  uit,
   tesla,
   shopify,
   carrent,
@@ -25,8 +26,23 @@ import {
   tripguide,
   threejs,
   dotnet,
-  postgres
+  postgres,
+  github,
+  linkedin
 } from "../assets";
+
+export const mediaLinks = [
+  {
+    name: "Github",
+    icon: github,
+    url: "https://github.com/JesseCN1024",
+  },
+  {
+    name: "Linkedin",
+    icon: linkedin,
+    url: "https://www.linkedin.com/in/khoa-nguyen-ly/",
+  },
+];
 
 export const navLinks = [
   {
@@ -118,6 +134,20 @@ const technologies = [
 ];
 
 const experiences = [
+  {
+    title: "University of Information Technology (UIT) - VNU",
+    company_name: "",
+    icon: uit,
+    iconBg: "#383E56",
+    date: "Sep 2021 - Jan 2025",
+    points: [
+      "GPA: Good (8.92). Achieve Semester Academic Scholarships 5 consecutive times",
+      "Finalist in CJ Corporation’s Code Your Future 2024 Contest",
+      "Joining Game UIT Hackathon 2022 Contest",
+      "Achieving Future VPBanker 2024 Scholarship",
+      "Member of UIT Open English Club",
+    ],
+  },
   {
     title: "Fullstack Developer Intern",
     company_name: "FPT Software",

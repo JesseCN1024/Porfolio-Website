@@ -3,7 +3,7 @@ import backend from "./backend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
 import web from "./web.png";
-import github from "./github.png";
+import github from "./media/github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 
@@ -28,10 +28,13 @@ import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import fpt from "./company/fpt.png";
 import tesla from "./company/tesla.png";
+import uit from "./company/uit.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+
+import linkedin from "./media/linkedin.png";
 
 // bhx images 
 import cartBHXImg from "./bhxapp/cart.jpg";
@@ -69,6 +72,8 @@ export {
   jobit,
   tripguide,
   fpt,
+  uit,
   dotnet,
-  postgres
+  postgres,
+  linkedin
 };
